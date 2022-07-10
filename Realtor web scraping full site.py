@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 from bs4 import BeautifulSoup
 import requests
 import time
@@ -13,22 +10,12 @@ import pandas as pd
 
 
 # #### User Input
-
-# In[12]:
-
-
 #user_input = int(input("What is the zipcode you are looking for? "))
 user_input = 28409
 
 
-# In[13]:
-
-
 #Getting Date
 today = datetime.date.today()
-
-
-# In[20]:
 
 
 #collecting & sorting the data
@@ -95,81 +82,10 @@ def check_zipcode():
 
    
 
-
-
-# In[22]:
-
-
 #Automatic refreshing
 
 while(True):
     check_zipcode()
     time.sleep(2)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-    
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
 
 
